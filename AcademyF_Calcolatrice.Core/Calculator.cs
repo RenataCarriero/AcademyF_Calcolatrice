@@ -31,6 +31,13 @@
             return x / y;
         }
 
-        
+        public bool VerificaSeAMaggioreDiB(double a, double b)
+        {
+            if (a >= b)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }

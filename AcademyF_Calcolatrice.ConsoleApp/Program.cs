@@ -45,6 +45,9 @@ static void AnalizzaScelta(int scelta, double a, double b)
             }
             Console.WriteLine($"\nIl Quoziente è: {quoziente}");
             break;
+        case 5:
+            Console.WriteLine(c.VerificaSeAMaggioreDiB(a, b));
+            break;
 
     }
 }
@@ -65,10 +68,11 @@ static int Menu()
     Console.WriteLine("Scegli 2 per fare la sottrazione tra i 2 numeri inseriti.");
     Console.WriteLine("Scegli 3 per fare la moltiplicazione tra 2 numeri inseriti.");
     Console.WriteLine("Scegli 4 per fare la divisione tra i 2 numeri inseriti.");
+    Console.WriteLine("Scegli 5 per verificare se il primo numero inserito è maggiore o uguale al secondo.");
     int scelta;
     do
     {
         Console.WriteLine("Scegli un'opzione:");
-    } while (!(int.TryParse(Console.ReadLine(), out scelta) && scelta >=1 && scelta <= 4));
+    } while (!(int.TryParse(Console.ReadLine(), out scelta) && scelta >=1 && scelta <= 5));
     return scelta;
 }
