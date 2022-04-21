@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcademyF_Calcolatrice.Core"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcademyF_Calcolatrice.Tests", "AcademyF_Calcolatrice.Tests\AcademyF_Calcolatrice.Tests.csproj", "{B1C1231D-C186-46E4-9BEE-670F9AC0C8CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyF_Calcolatrice.WinForm", "AcademyF_Calcolatrice.WinForm\AcademyF_Calcolatrice.WinForm.csproj", "{AFEAB74A-7F38-4226-8325-3270465129DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcademyF_Calcolatrice.WinForm", "AcademyF_Calcolatrice.WinForm\AcademyF_Calcolatrice.WinForm.csproj", "{AFEAB74A-7F38-4226-8325-3270465129DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademyF_Calcolatrice.WpfApp", "AcademyF_Calcolatrice.WpfApp\AcademyF_Calcolatrice.WpfApp.csproj", "{339459A4-4877-4314-B4E3-F8ADE57BBD4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{AFEAB74A-7F38-4226-8325-3270465129DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFEAB74A-7F38-4226-8325-3270465129DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFEAB74A-7F38-4226-8325-3270465129DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{339459A4-4877-4314-B4E3-F8ADE57BBD4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{339459A4-4877-4314-B4E3-F8ADE57BBD4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{339459A4-4877-4314-B4E3-F8ADE57BBD4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{339459A4-4877-4314-B4E3-F8ADE57BBD4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

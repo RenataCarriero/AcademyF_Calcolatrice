@@ -125,7 +125,7 @@ namespace AcademyF_Calcolatrice.WinForm
                     textValue.Text = c.MoltiplicaNumeri(valueA, valueB).ToString();
                     break;
                 case "dividi":
-                    var risultato = c.DividiNumeri(valueA, valueB).ToString();
+                    var risultato = c.DividiNumeri(valueA, valueB);
                     textValue.Text= risultato==null ? "Errore": risultato.ToString();
                     break;
             }
